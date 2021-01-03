@@ -9,14 +9,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-          Boilerplate Next.js
-        </h1>
+        <h1>Boilerplate Next.js</h1>
       </main>
 
-      <footer>
-          Powered by jwestarb!
-      </footer>
+      <footer>Powered by jwestarb!</footer>
     </div>
   )
 }
