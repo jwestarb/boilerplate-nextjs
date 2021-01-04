@@ -1,7 +1,12 @@
+import * as S from './styles'
+
 const Main = () => (
-  <main>
-    <h1>Boilerplate Next.js</h1>
-  </main>
+  <S.Wrapper>
+    <S.Title>Boilerplate Next.js</S.Title>
+    <S.Description>
+      TypeScript, ReactJS, NextJS e Styled Components
+    </S.Description>
+  </S.Wrapper>
 )
 
 export default Main
