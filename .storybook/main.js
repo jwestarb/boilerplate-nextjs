@@ -8,10 +8,10 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-essentials'
   ],
-  // babel: async (options) => ({
-  //   ...options,
-  //   plugins: [...options.plugins, '@babel/plugin-transform-react-jsx']
-  // }),
+  babel: async (options) => ({
+    ...options,
+    plugins: [...options.plugins, '@babel/plugin-transform-react-jsx']
+  }),
   webpackFinal: (config) => {
     config.resolve.modules.push(`${process.cwd()}/src`)
     return config
